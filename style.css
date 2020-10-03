@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    background: lightyellow;
+    font-family: 'Roboto Slab', serif;
+}
+
+.emoji-face {
+    width: 100px;
+    height: 100px;
+    background-color: #F2DD68;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.07);
+    position: relative;
+}
+
+.eye1 {
+    width: 11px;
+    height: 15px;
+    background-color: #995710;
+    border-radius: 50%;
+    top: 30px;
+    left: 20px;
+    position: absolute;
+}
+
+.eye2 {
+    width: 11px;
+    height: 15px;
+    background-color: #995710;
+    border-radius: 50%;
+    top: 30px;
+    left: 70px;
+    position: absolute;
+}
+
+.mouth {
+    height: 34px;
+    width: 70px;
+    background-color: #995710;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    overflow: hidden;
+}
+
+.tongue {
+    background-color: #e25d5d;
+    height: 38px;
+    width: 38px;
+    border-radius: 40%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+}
+
+.mouth-shock {
+    width: 20px;
+    height: 30px;
+    background-color: #995710;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
